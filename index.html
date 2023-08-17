@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>WebPage</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="./assets/css/styles.css">
+</head>
+
+<body>
+  <div class="main-container">
+    <div class="container-fluid bg1">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar">
+              <img src="./assets/img/Logo.png" alt="logo">
+              <div class="nav-anchor">
+                <a href="#history">01.HISTORY</a>
+                <a href="#team">02.TEAM</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- sticky navbar -->
+
+    <div class="sticky-top" id="sticky-nav">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar">
+              <img src="./assets/img/logo-text.png" alt="logo" class="logo-text">
+              <div class="nav-anchor history-nav">
+                <a href="#history">01.HISTORY</a>
+                <a href="#team">02.TEAM</a>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 2.section Starts here  -->
+    <div>
+      <div class="container-fluid bg2" id="history">
+        <img src="./assets/img/01-history-text.png" class="history-img">
+        <div class="history-text">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed tortor id erat pharetra
+          consequat eu ac dolor. Phasellus tincidunt lorem purus, et molestie lorem vestibulum sit amet.
+          Duis mi justo, facilisis ac ante sed, tempus ornare nibh. Duis at tellus id eros cursus volutpat.
+          Donec vitae molestie urna. Aliquam dictum tellus id maximus consectetur.
+        </div>
+      </div>
+      <!-- carousel -->
+      <div class="carousel-div">
+        <div class="container">
+          <div class="row">
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+              <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item">
+                  <div class="slide-box">
+                    <img src="./assets/img/slide1.jpg" alt="First slide">
+                    <img src="./assets/img/slide2.jpg" alt="First slide" class="carousel-img">
+                    <img src="./assets/img/slide1.jpg" alt="First slide">
+                    <img src="./assets/img/slide2.jpg" alt="First slide" class="carousel-img">
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="slide-box ">
+                    <img src="./assets/img/slide1.jpg" alt="First slide">
+                    <img src="./assets/img/slide2.jpg" alt="First slide" class="carousel-img">
+                    <img src="./assets/img/slide1.jpg" alt="First slide">
+                    <img src="./assets/img/slide2.jpg" alt="First slide" class="carousel-img ">
+                  </div>
+                </div>
+                <div class="carousel-item active">
+                  <div class="slide-box ">
+                    <img src="./assets/img/slide1.jpg" alt="First slide">
+                    <img src="./assets/img/slide2.jpg" alt="First slide" class="carousel-img">
+                    <img src="./assets/img/slide1.jpg" alt="First slide">
+                    <img src="./assets/img/slide2.jpg" alt="First slide" class="carousel-img">
+                  </div>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 3.section Starts here -->
+      <div class="container" id="team">
+        <div class="row">
+          <div class="col-12">
+            <div class="climb-head">
+              <img src="./assets/img/02-climb-text.png" alt="logo" class="logo-text">
+              <div class="climb-text">
+                Cras scelerisque id quam sed dignissim Pellentesque urna nunc, gravida quis hendrerit ac,
+                tristique ut quam. Vivamus suscipit dignissim tortor nec congue.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- tabs -->
+      <div class="tab-div">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <ul class="nav tabs container">
+                <li class="nav-item">
+                  <a class="nav-link show active" href="#tab1" data-toggle="tab">MOUNTAIN 1</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#tab2" data-toggle="tab">MOUNTAIN 2</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- 1st tab -->
+      <div class="last-container tab-content" id="last">
+        <div class="tab-pane fade show active container-fluid bg3" role="tabpanel" tabindex="0" id="tab1">
+          <div class="banner-box">
+            <div class="banner">
+              <h5>SCHEDULE</h5>
+              <div class="banner-text">
+                <div>25 NOV 2016</div>
+                <div>Vestibullum viverra</div>
+              </div>
+              <div class="banner-text">
+                <div>28 NOV 2016</div>
+                <div>Vestibullum viverra</div>
+              </div>
+              <br>
+              <div class="banner-text">
+                <div>18 DEC 2017</div>
+                <div>Vestibullum viverra</div>
+              </div>
+              <br>
+              <div class="banner-text">
+                <div>7 JAN 2016</div>
+                <div>Vestibullum viverra</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- 2nd tab -->
+        <div class="tab-pane fade container-fluid bg4" role="tabpanel" tabindex="0" id="tab2">
+          <div class="banner-box">
+            <div class="banner">
+              <h5>SCHEDULE</h5>
+              <div class="banner-text">
+                <div>25 NOV 2016</div>
+                <div>Vestibullum viverra</div>
+              </div>
+              <div class="banner-text">
+                <div>28 NOV 2016</div>
+                <div>Vestibullum viverra</div>
+              </div>
+              <br>
+              <div class="banner-text">
+                <div>18 DEC 2017</div>
+                <div>Vestibullum viverra</div>
+              </div>
+              <br>
+              <div class="banner-text">
+                <div>7 JAN 2016</div>
+                <div>Vestibullum viverra</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-6">
+              <img src="./assets/img/logo-footer.png" alt="logo" class="footer-img">
+
+            </div>
+            <div class="col-6 footer-text">
+              COPYRIGHT 2023. ALL RIGHTS RESERVED.
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+</html>

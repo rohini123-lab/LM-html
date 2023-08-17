@@ -1,0 +1,264 @@
+body {
+    padding: auto;
+  }
+  
+  .container-fluid {
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+  }
+  
+  .bg1 {
+    background: url('../img/hero.jpg');
+    background-size: cover, contain;
+    height: 105vh;
+    background-repeat: no-repeat;
+    background-position: center 5%;
+  }
+  
+  .bg2 {
+    background-image: url('../img/mountains2.jpg');
+    background-size: cover, contain;
+    height: 95vh;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+  }
+  
+  .bg3 {
+    background-image: url('../img/mountain-tab1.jpg');
+  }
+  
+  .bg4 {
+    background-image: url('../img/mountain-tab2.jpg');
+  }
+  
+  .navbar {
+    display: flex;
+  }
+  
+  .nav-anchor a {
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    text-decoration: underline;
+    font-family: 'Lato', sans-serif;
+    text-underline-offset: 3px;
+  }
+  
+  .nav-anchor a:hover {
+    text-decoration: none;
+  }
+  
+  /* sticky navbar */
+  #sticky-nav {
+    height: 7vh;
+  }
+  
+  .sticky-top {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: white;
+  }
+  
+  .logo-text {
+    margin-left: 5%;
+    margin-bottom: 0%;
+    height: 8%;
+    padding-bottom: 10px;
+  }
+  
+  .history-nav {
+    background-color: white;
+  }
+  
+  .history-nav a {
+    color: #414f6b;
+    font-weight: 300;
+    margin-top: -16px;
+    text-decoration: underline;
+    margin-bottom: -5px;
+  }
+  
+  .history-nav a:hover {
+    text-decoration: none;
+  }
+  
+  /* 2.section Starts here */
+  .history-text {
+    width: 69%;
+    height: 373px;
+    margin-left: 16%;
+    margin-top: 10px;
+  }
+  
+  .history-img {
+    margin-left: 13%;
+    margin-top: 50px;
+  }
+  
+  /* carousel */
+  .carousel-div {
+    height: 25vh;
+    margin-top: -25vh;
+    width: 100% !important;
+    background-color: rgba(65, 79, 107, .85);
+    border-top: 0.2px solid white;
+  }
+  
+  .carousel {
+    margin: 23px auto;
+  }
+  
+  .carousel .slide {
+    height: 20vh;
+  }
+  
+  .carousel-indicators {
+    display: flex;
+    position: absolute;
+    z-index: 15;
+    justify-content: center;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+    bottom: -45px;
+  }
+  
+  .carousel-indicators .active {
+    opacity: 1;
+  }
+  
+  .carousel-indicators li {
+    display: block;
+    height: 10px;
+    width: 10px;
+    border-radius: 100%;
+  }
+  
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-item {
+    display: none;
+    width: 100%;
+    position: relative;
+  }
+  
+  .carousel-inner::after {
+    display: block;
+    clear: both;
+    content: "";
+  }
+  
+  .slide-box img {
+    flex: 0 0 25%;
+    padding: 0 8px;
+  }
+  
+  .carousel-img {
+  }
+  
+  /* section 3 */
+  .climb-head {
+    display: flex;
+    padding: 15px;
+  }
+  
+  .climb-text {
+    padding: 20px;
+  }
+  
+  .slide-box {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .slide-box img {
+    flex: 0 0 25%;
+    padding: 0 8px;
+    vertical-align: middle;
+  }
+  
+  .tab-div {
+    width: 100%;
+    background-color: #414f6b;
+    border-top: 0.2px solid white;
+  }
+  
+  .tab-nav {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .tab-nav li a {
+    font-size: 20px;
+  }
+  
+  .tabs .active {
+    color: #414f6b;
+    background-color: #b0b4be;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+  }
+  
+  .tabs a {
+    font-family: sans-serif;
+    color: #b0b4be;
+    font-size: 20px;
+    background-color: #b0b4be;
+    font-weight: 500;
+    background-color: #414f6b;
+  }
+  
+  .tabs a:hover {
+    background-color: #b0b4be;
+    color: #414f6b;
+    text-decoration: underline;
+  }
+  
+  .banner-box {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    top: 8%;
+    left: 18%;
+    border: 1px solid rgba(0, 0, 0, .125);
+    height: 230px;
+    width: 400px;
+    background-color: rgba(255, 255, 255, .6);
+  }
+  
+  .banner-text {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 13px 0 13px;
+  }
+  
+  .banner h5 {
+    margin-top: 10px;
+    font-size: 30px;
+    margin-left: 11px;
+    font-weight: 700;
+  }
+  
+  /* footer */
+  .footer {
+    background-color: #414f6b;
+  }
+  
+  .footer-img {
+    padding-top: 10px;
+    margin-left: 20%;
+  }
+  
+  .footer-text {
+    padding-top: 18px;
+    text-align: right;
+    color: #b0b4be;
+    font-family: 'lato' sans-serif;
+  }
+  
